@@ -1,0 +1,193 @@
+# Current framework
+# https://docs.djangoproject.com/en/2.2/
+Django==2.2.1
+
+# Useful command line extensions (`shell_plus`, `create_command`, `export_emails`)
+# http://django-extensions.readthedocs.org/en/latest/
+django-extensions==2.1.6
+
+# Activate-based Authentication
+django-registration-redux==2.6
+
+# ==============================================================================
+# Databases
+# ==============================================================================
+
+# PostgreSQL adapter
+# http://pythonhosted.org/psycopg2/
+psycopg2==2.8.2
+
+# ==============================================================================
+# Storage
+# ==============================================================================
+# https://github.com/antonagestam/collectfast
+Collectfast==0.6.2
+
+# http://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html
+# There is one backend for interacting with S3 based on the boto library.
+django-storages==1.7.1
+
+# http://boto3.readthedocs.io/en/latest/guide/quickstart.html#installation
+# Boto is the Amazon Web Services (AWS) SDK for Python, which allows Python
+# developers to write software that makes use of Amazon services like S3 and
+# EC2. Boto provides an easy to use, object-oriented API as well as low-level
+# direct service access.
+boto3==1.9.141
+
+# ==============================================================================
+# Restful APIs
+# ==============================================================================
+
+# webservice API framework for Django
+# https://django-tastypie.readthedocs.io/en/latest/
+django-tastypie==0.14.2
+
+# Requests is the only Non-GMO HTTP library for Python.
+# http://docs.python-requests.org/en/master/
+requests
+
+
+# Django CORS Header
+# https://github.com/ottoyiu/django-cors-headers
+# Django app for handling the server headers required for Cross-Origin Resource Sharing (CORS)
+django-cors-headers==2.5.3
+
+# ==============================================================================
+# Models
+# ==============================================================================
+
+# A Django application that provides country choices for use with forms, flag
+# icons static files, and a country field for models.
+# https://pypi.python.org/pypi/django-countries
+django-countries==5.3.3
+
+# Histories for model
+# https://django-simple-history.readthedocs.io/en/latest/
+django-simple-history==2.7.2
+
+# For generating models diagrams
+# https://django-extensions.readthedocs.io/en/latest/graph_models.html
+pydot==1.4.1
+
+# ==============================================================================
+# Search
+# ==============================================================================
+
+# Elastic Search
+# Haystack provides modular search for Django.
+# https://django-haystack.readthedocs.io/en/v2.6.0/
+django-haystack==2.8.1
+
+# Python Elastic Search client
+# https://elasticsearch-py.readthedocs.io/en/master/
+# Elasticsearch index
+elasticsearch==7.0.0
+elasticsearch-dsl==7.0.0
+celery-haystack==0.10
+django-haystack-elasticsearch5==0.7
+
+# ==============================================================================
+# Admin
+# ==============================================================================
+
+# Collection of admin fields to help to create computed or custom fields more
+# friendly and easy way
+# https://readthedocs.org/projects/django-admin-easy/
+django-admin-easy==0.5
+
+# ==============================================================================
+# Queue/Messages
+# ==============================================================================
+
+# Distributed Task Queue
+# https://pypi.python.org/pypi/celery/
+celery==4.3.0
+
+# This extension enables you to store Celery task results using the Django ORM.
+# https://github.com/celery/django-celery-results
+django-celery-results==1.0.4
+
+# ImageKit is a Django app for processing images.
+# https://github.com/matthewwithanm/django-imagekit
+django-imagekit==4.0.2
+image==1.5.27
+Pillow==6.0.0
+boto==2.49.0
+
+# The Stripe Python library provides convenient
+# access to the Stripe API from applications
+stripe==2.27.0
+
+ipython
+
+# autocomplete-light library for searchable in dropdown
+django-autocomplete-light==3.3.4
+
+# The library allows for server-side integration of Mixpanel
+mixpanel
+
+# Django request logging
+# https://github.com/Rhumbix/django-request-logging
+django-request-logging==0.6.6
+
+# Django nested admin
+# https://github.com/theatlantic/django-nested-admin
+django-nested-admin==3.2.3
+
+# Django model cluster
+# https://pypi.org/project/django-modelcluster/
+django-modelcluster==4.4
+
+# Firebase Admin SDK to push notification
+# https://firebase.google.com/docs/admin/setup
+firebase-admin
+
+# XHTML2PDF
+# https://github.com/xhtml2pdf/xhtml2pdf
+xhtml2pdf==0.2.3
+
+# PyJWT
+# https://github.com/jpadilla/pyjwt
+PyJWT==1.7.1
+
+# pysftp
+# https://bitbucket.org/dundeemt/pysftp
+pysftp==0.2.9
+
+# dateutil
+# https://pypi.org/project/python-dateutil/
+python-dateutil
+
+# xmlschema
+# https://github.com/brunato/xmlschema
+xmlschema==1.0.10
+
+# https://django-debug-toolbar.readthedocs.io/en/latest/
+django-debug-toolbar==1.11
+
+# Django QR Code
+#https://github.com/dprog-philippe-docourt/django-qr-code
+django-qr-code==1.0.0
+
+# cryptography
+# https://github.com/pyca/cryptography
+cryptography==2.7
+
+# Requests-OAuthlib
+# https://github.com/requests/requests-oauthlib
+requests-oauthlib==1.2.0
+
+# django-pandas
+# https://django-pandas.readthedocs.io/en/latest/
+django-pandas==0.6.1
+
+# XlsWriter
+# https://xlsxwriter.readthedocs.io/
+XlsxWriter==1.2.0
+
+# Gevent
+gevent==1.4.0
+
+# Geocoder
+# https://github.com/DenisCarriere/geocoder
+geocoder==1.38.1

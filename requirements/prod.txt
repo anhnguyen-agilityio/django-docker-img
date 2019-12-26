@@ -1,0 +1,11 @@
+# Cache
+# https://github.com/niwinz/django-redis
+django-redis==4.10.0
+
+# Python WSGI HTTP Server for UNIX
+# Use the latest
+gunicorn
+
+# Sentry
+# https://docs.sentry.io/clients/python/integrations/django/
+raven==6.10.0
