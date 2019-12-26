@@ -1,0 +1,23 @@
+# Test fixtures replacement for Python
+# https://github.com/rbarrois/factory_boy
+factory-boy==2.11.1
+
+# A Python library for generating fake data.
+# https://pypi.python.org/pypi/Faker
+Faker==1.0.5
+
+# Measures code coverage
+# http://nedbatchelder.com/code/coverage/
+coverage==4.5.3
+
+# Easily specify directories to be excluded from testing
+# https://bitbucket.org/kgrandis/nose-exclude
+nose-exclude==0.5.0
+
+# Django test runner using nose
+# https://github.com/django-nose/django-nose
+django-nose==1.4.6
+
+# the modular source code checker: pep8, pyflakes and co.
+# https://pypi.python.org/pypi/flake8
+flake8==3.7.7

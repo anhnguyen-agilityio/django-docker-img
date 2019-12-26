@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/django-docker-img
+    parallelism: 1
+    environment:
+      REPO: django-docker-img
+
+    docker:
+      - image: circleci/python:3.5
+
+    steps:
+    # Machine Setup
+    - checkout
+
+    # Setup remote docker
+    - setup_remote_docker
+    - run:
+        name: Login into docker
+        command: |
+          set -e
+          docker login -u $DOCKER_USER -p $DOCKER_PASS
+
+    # Build Docker image
+    - run:
+        name: Build Docker image
+        command: ./bin/build.sh
