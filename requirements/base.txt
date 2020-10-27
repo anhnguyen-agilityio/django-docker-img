@@ -171,7 +171,7 @@ django-qr-code==1.0.0
 
 # cryptography
 # https://github.com/pyca/cryptography
-cryptography==2.7
+cryptography==3.2
 
 # Requests-OAuthlib
 # https://github.com/requests/requests-oauthlib
