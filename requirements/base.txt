@@ -163,7 +163,7 @@ python-dateutil
 xmlschema==1.0.10
 
 # https://django-debug-toolbar.readthedocs.io/en/latest/
-django-debug-toolbar==1.11
+django-debug-toolbar==1.11.1
 
 # Django QR Code
 #https://github.com/dprog-philippe-docourt/django-qr-code
