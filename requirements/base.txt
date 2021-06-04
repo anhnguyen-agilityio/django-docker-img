@@ -1,6 +1,6 @@
 # Current framework
 # https://docs.djangoproject.com/en/2.2/
-Django==2.2.1
+Django==2.2.21
 
 # Useful command line extensions (`shell_plus`, `create_command`, `export_emails`)
 # http://django-extensions.readthedocs.org/en/latest/
